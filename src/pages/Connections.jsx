@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "../index.css";
 
-import { loadAllLifeData } from "../services/dataLoader";
+import { loadAllLifeData } from "../services/DataLoader";
 import { analyzeConnections } from "../analysis/patterns";
 
 import LifeMap from "../components/LifeMap";
